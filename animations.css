@@ -1,0 +1,31 @@
+/* ================== Services Carousel Animation ================== */
+@keyframes carousel-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Scrolls exactly half the width */
+}
+
+.services-list {
+    /* The animation will be applied via JavaScript */
+    animation-name: carousel-scroll;
+    animation-duration: var(--services-animation-duration, 25s);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* Pause animation on hover */
+.services-list-container:hover .services-list {
+    animation-play-state: paused;
+}
+
+
+/* ================== Projects Scroll-In Animation ================== */
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(-35px) translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) translateY(0);
+    }
+}

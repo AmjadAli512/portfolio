@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Amjad Ali</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="faq-chatbot.css">
+    <!-- Font Awesome is still needed for icons in the content and mobile menu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header class="main-header">
+        <a href="#home" class="logo">Amjad Ali</a>
+        <nav class="desktop-nav">
+            <a href="#home">Home</a>
+            <a href="#experience">Experience</a>
+            <a href="#stack">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle"><i class="fas fa-bars"></i></button>
+    </header>
+
+    <div class="mobile-nav-panel">
+        <div class="profile mini-profile">
+            <img src="portfolio pick.jpeg" alt="Profile Image">
+            <h2>Amjad Ali</h2>
+            <p>Software Engineering Student</p>
+        </div>
+        <ul>
+            <li class="nav-item"><a href="#home"><i class="fas fa-home"></i>Home</a></li>
+            <li class="nav-item"><a href="#experience"><i class="fas fa-briefcase"></i>Experience</a></li>
+            <li class="nav-item"><a href="#stack"><i class="fas fa-layer-group"></i>Skills</a></li>
+            <li class="nav-item"><a href="#services"><i class="fas fa-tools"></i>Services</a></li>
+            <li class="nav-item"><a href="#projects"><i class="fas fa-project-diagram"></i>Projects</a></li>
+            <li class="nav-item"><a href="#certifications"><i class="fas fa-certificate"></i>Certifications</a></li>
+            <li class="nav-item"><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-sun"></i></button>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section id="home" class="content-section hero-section">
+            <p class="eyebrow">Welcome To My Universe</p>
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <h1>Crafting Digital Masterpieces</h1>
+                    <p class="about-me">
+                        Software developer with a strong focus on system architecture and application design.
+                        Experienced in building structured, scalable applications such as a weather system with
+                        API integration and a hostel management system, emphasizing clean architecture, efficient data flow, and maintainable code.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="cta-button primary">View Projects</a>
+                        <a href="Amjad_CV_updated.pdf" download class="cta-button ghost">
+                            <i class="fas fa-download"></i> Resume
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/AmjadAli512" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/amjad-ali-547799270" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:amjadanjum05@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="hero-chatbot-cta">
+                        <span class="hero-chatbot-label" aria-hidden="true">ask about amjad</span>
+                        <button id="faq-chatbot-launcher" aria-label="Open FAQ chatbot" type="button" class="hero-chatbot-launcher">
+                            <i class="fas fa-comments" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <img src="portfolio pick.jpeg" alt="Amjad Ali profile portrait">
+                    <div class="hero-tag">Software Engineering Student</div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <article class="stat-card"><span class="stat-value" data-target="4" data-suffix="+">4+</span><p>Years Learning</p></article>
+                <article class="stat-card"><span class="stat-value" data-target="10" data-suffix="+">10+</span><p>Certificates Achieved</p></article>
+                <article class="stat-card"><span class="stat-value" data-target="12" data-suffix="+">12+</span><p>Tech Tools</p></article>
+                <article class="stat-card"><span class="stat-value" data-target="24" data-suffix="/7">24/7</span><p>Problem Solving</p></article>
+            </div>
+        </section>
+
+        <section id="experience" class="content-section">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="timeline-grid">
+                <article class="timeline-card">
+                    <h3>IT Support & Troubleshooting</h3>
+                    <p>Resolved hardware and software issues while improving reliability across systems and tools.</p>
+                </article>
+                <article class="timeline-card">
+                    <h3>Flutter Development</h3>
+                    <p>Built interactive mobile apps with clean UI patterns and real-time features using Firebase.</p>
+                </article>
+                <article class="timeline-card">
+                    <h3>Web Development</h3>
+                    <p>Created responsive, modern web interfaces and APIs focused on usability and performance.</p>
+                </article>
+                <article class="timeline-card">
+                    <h3>UI/UX & Agile</h3>
+                    <p>Applied user-centered design and agile practices to plan, test, and ship better products.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="stack" class="content-section">
+            <h2 class="section-title">The Tech Stack</h2>
+            <div class="skills-marquee">
+                <span>Flutter</span><span>Dart</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>ASP.NET Core</span><span>Azure SQL</span><span>Firebase</span><span>Git</span><span>Figma</span>
+                <span>Flutter</span><span>Dart</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>ASP.NET Core</span><span>Azure SQL</span><span>Firebase</span><span>Git</span><span>Figma</span>
+            </div>
+        </section>
+
+        <section id="services" class="content-section">
+            <h2 class="section-title">Services</h2>
+            <p class="section-subtitle">Focused capabilities I can deliver across mobile, web, and product experiences.</p>
+            <div class="services-list-container">
+                <div class="services-list">
+                    <!-- Services are dynamically added by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2 class="section-title">Featured Creations</h2>
+            <p class="section-subtitle">A selection of practical, high-impact work built with performance and usability in mind.</p>
+            <div id="projects-list" class="projects-list"></div>
+        </section>
+
+        <section id="certifications" class="content-section">
+            <h2 class="section-title">Certifications</h2>
+            <div id="certifications-list" class="certifications-list"></div>
+        </section>
+    </main>
+
+    <footer id="contact" class="main-footer-section">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Direct Contact</h3>
+                <p>Yultar, Skardu</p>
+                <p>03489929137</p>
+                <a href="mailto:amjadanjum05@gmail.com">amjadanjum05@gmail.com</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Social Presence</h3>
+                <a href="https://www.linkedin.com/in/amjad-ali-547799270" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/AmjadAli512" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.instagram.com/balti.in_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+
+            <div class="footer-column-wide">
+                <h3>Let's Connect</h3>
+                <p class="section-subtitle">Have an idea or collaboration in mind? Send a message and I will respond soon.</p>
+                <form id="contact-form" class="contact-form-container" action="https://formspree.io/f/mdapqegp" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" autocomplete="name" required>
+                    <input type="email" name="email" placeholder="Your Email" autocomplete="email" required>
+                    <textarea name="message" placeholder="Your Message" autocomplete="off" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                    <div class="submit-progress" aria-live="polite" aria-hidden="true">
+                        <span class="progress-ring"></span>
+                        <span>Submitting...</span>
+                    </div>
+                </form>
+                <p id="form-thank-you" style="display: none;">Thank you for your message. I will get back to you soon.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>My Ventures</h3>
+                <a href="https://www.ebay.com/" target="_blank" rel="noopener noreferrer">E-Commerce Store</a>
+                <a href="https://www.instagram.com/balti.in_/" target="_blank" rel="noopener noreferrer">Travel Agency</a>
+                <a href="https://www.instagram.com/cyberailabs?igsh=ZWlpb3lpeXQzbm51" target="_blank" rel="noopener noreferrer">Automation Agency</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Amjad Ali. All Rights Reserved.</p>
+            <p>Built with passion, consistency, and purpose.</p>
+        </div>
+    </footer>
+
+    <nav class="section-dots" aria-label="Section navigation">
+        <a href="#home" data-section="home" aria-label="Home"></a>
+        <a href="#experience" data-section="experience" aria-label="Experience"></a>
+        <a href="#stack" data-section="stack" aria-label="Skills"></a>
+        <a href="#services" data-section="services" aria-label="Services"></a>
+        <a href="#projects" data-section="projects" aria-label="Projects"></a>
+        <a href="#certifications" data-section="certifications" aria-label="Certifications"></a>
+        <a href="#contact" data-section="contact" aria-label="Contact"></a>
+    </nav>
+
+    <section id="faq-chatbot-window" aria-label="FAQ chatbot" role="dialog" aria-modal="false">
+        <header class="faq-chatbot-header">
+            <div id="faq-chatbot-title" class="faq-chatbot-title" aria-label="Drag chatbot window">
+                <i class="fas fa-robot" aria-hidden="true"></i>
+                <span>Portfolio FAQ</span>
+            </div>
+            <div class="faq-chatbot-controls">
+                <button id="faq-chatbot-min" class="faq-chatbot-control" type="button" aria-label="Minimize chatbot">
+                    <i class="fas fa-window-minimize" aria-hidden="true"></i>
+                </button>
+                <button id="faq-chatbot-max" class="faq-chatbot-control" type="button" aria-label="Maximize chatbot">
+                    <i class="fas fa-expand" aria-hidden="true"></i>
+                </button>
+                <button id="faq-chatbot-close" class="faq-chatbot-control" type="button" aria-label="Close chatbot and clear conversation">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </header>
+        <div id="faq-chatbot-body" class="faq-chatbot-body" aria-live="polite"></div>
+        <form id="faq-chatbot-form" class="faq-chatbot-input-row">
+            <input id="faq-chatbot-input" type="text" placeholder="Ask about skills, projects, contact..." autocomplete="off" required>
+            <button id="faq-chatbot-send" type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script src="faq-data.js"></script>
+    <script src="faq-chatbot.js"></script>
+    <script src="particles.js"></script>
+</body>
+</html>
