@@ -265,7 +265,8 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const previewUrlByTitle = {
-            'Hostel Management System': 'https://image.thum.io/get/width/1200/noanimate/https://hostelmanagementsystem-a0gafpbedmcfexh4.eastasia-01.azurewebsites.net/'
+            'Hostel Management System': 'https://image.thum.io/get/width/1200/noanimate/https://hostelmanagementsystem-a0gafpbedmcfexh4.eastasia-01.azurewebsites.net/',
+            'DevSKD — Full-Stack MERN Platform': 'https://image.thum.io/get/width/1200/noanimate/https://devskd.vercel.app'   
         };
 
         document.querySelectorAll('.project-item').forEach((item) => {
